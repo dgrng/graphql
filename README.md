@@ -2,18 +2,19 @@
 
 Low-level GraphQL client for Go.
 
-* Simple, familiar API
-* Respects `context.Context` timeouts and cancellation
-* Build and execute any kind of GraphQL request
-* Use strong Go types for response data
-* Use variables and upload files
-* Simple error handling
+- Simple, familiar API
+- Respects `context.Context` timeouts and cancellation
+- Build and execute any kind of GraphQL request
+- Use strong Go types for response data
+- Use variables and upload files
+- Simple error handling
 
 ## Installation
+
 Make sure you have a working Go environment. To install graphql, simply run:
 
 ```
-$ go get github.com/machinebox/graphql
+$ go get github.com/dgrng/graphql
 ```
 
 ## Usage
